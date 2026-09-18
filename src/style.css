@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3b82f6;
+
+  /* Pendaftaran font kustom */
+  --font-inter: "Inter", sans-serif;
+  --font-kanit: "Kanit", sans-serif;
+}
+
+/* Animasi Teks Berjalan dari Kanan ke Kiri */
+@keyframes slideFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Animasi Floating Naik-Turun Halus */
+@keyframes floatY {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-24px) scale(1.03); /* Jarak lebih jauh (-24px) & membesar sedikit */
+  }
+}
+
+/* Class Utility Animasi */
+.animate-slide-right {
+  animation: slideFromRight 5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-float {
+  animation: floatY 5s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+/* Animasi Fade In dari Bawah ke Atas */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Class pembantu untuk animasi elemen */
+.animate-fade-up {
+  animation: fadeInUp 5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
