@@ -3,7 +3,9 @@ import vue from '@vitejs/plugin-vue'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [vue()],
-  // Sesuaikan dengan nama repository kamu di GitHub nantinya:
-  base: '/marvelfaizalrachman.github.io/', 
+  plugins: [
+    vue(),
+    tailwindcss(), // <--- Tambahkan baris ini!
+  ],
+  base: '/marvelfaizalrachman.github.io/',
 })
