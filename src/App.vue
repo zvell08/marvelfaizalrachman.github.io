@@ -46,7 +46,7 @@ onMounted(() => {
   </div>
 
   <!-- Foto & Background Circle Container -->
-  <div class="relative w-72 h-72 sm:w-[500px] sm:h-[500px] lg:w-[600px] lg:h-[600px] flex items-center justify-center mt-10 lg:mt-35">
+  <div class="relative w-72 h-72 sm:w-[500px] sm:h-[500px] lg:w-[600px] lg:h-[600px] flex items-center justify-center mt-10 lg:mt-15">
     
     <!-- Gambar Background Circle (Floating) -->
     <img 
