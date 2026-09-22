@@ -140,7 +140,7 @@ onMounted(() => {
           <div class="scroll-reveal opacity-0 relative flex flex-col items-end text-right">
             <img src="/assets/aboutpage/DotY.png" alt="Dot" class="absolute -right-[41px] sm:-right-[57px] top-2 w-6 h-6 z-10" />
             <h3 class="font-kanit text-2xl sm:text-4xl font-normal text-white">Jucang Sales Application (Freelance)</h3>
-            <p class="font-inter text-lg sm:text-2xl text-zinc-400 mt-1 mb-3">Backend Mobile - Laravel</p>
+            <p class="font-inter text-lg sm:text-2xl text-zinc-400 mt-1 mb-3">Backend Mobile - Laravel | 2023-2024</p>
             <p class="font-inter text-sm sm:text-base text-zinc-300 leading-relaxed max-w-2xl">
               Engineered core backend architecture for a dedicated FMCG sales application, managing inventory tracking, real-time sales reporting, and automated target performance metrics.<br><br>
               Streamlined daily business operations and stock accuracy by implementing scalable database schemas and optimized API endpoints.
@@ -151,7 +151,7 @@ onMounted(() => {
           <div class="scroll-reveal opacity-0 relative flex flex-col items-end text-right">
             <img src="/assets/aboutpage/DotY.png" alt="Dot" class="absolute -right-[41px] sm:-right-[57px] top-2 w-6 h-6 z-10" />
             <h3 class="font-kanit text-2xl sm:text-4xl font-normal text-white">Yayasan Dharmabakti Bunaya</h3>
-            <p class="font-inter text-lg sm:text-2xl text-zinc-400 mt-1 mb-3">Web Management</p>
+            <p class="font-inter text-lg sm:text-2xl text-zinc-400 mt-1 mb-3">Web Management | 2024-2026</p>
             <p class="font-inter text-sm sm:text-base text-zinc-300 leading-relaxed max-w-2xl">
               Website feature enhancements, management, and updates.
             </p>
